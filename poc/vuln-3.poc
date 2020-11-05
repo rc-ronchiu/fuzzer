@@ -1,0 +1,5 @@
+store x y
+push 3
+push 15
+store x
+load x
