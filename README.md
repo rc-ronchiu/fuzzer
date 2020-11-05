@@ -1,9 +1,13 @@
-# SWEN90006 Assignment 2 2020
+#Purpose
+In this project, I implemented a fuzzer with a variety of techniques.
+Generation based fuzzing, for example, was the first technique that
+I used and it achieved around 80% of coverage score. After that, I
+added mutation based fuzzing technique into the fuzzer, which 
+improved the coveage score and it went up to around 86%. Finally, I
+added modified random fuzzing technique so that the coverage score
+reached 92%.
 
-Please see the assignment handout which contains all the essential
-information.
-
-Structure of this repository:
+#Structure of this repository
 
 * src/original/: -  where the code for the original application lives
 * src/vuln-1 -- src/vuln-5 - where your vulnerable versions will live
